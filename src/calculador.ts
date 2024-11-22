@@ -4,6 +4,10 @@ export default class Calculadora {
 
     // métodos
 
+    getResultado() {
+        return this.resultado
+    }
+
     somar(valorA: number, valorB:number){
         this.resultado = valorA + valorB
         return this.resultado
